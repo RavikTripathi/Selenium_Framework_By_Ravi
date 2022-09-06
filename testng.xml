@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+
+  <test  name="personal Loan">
+    <classes>
+      <class name="TestNg.Day1"/>
+      <class name = "TestNg.Day2" />
+      <class name = "TestNg.Day3" />
+      </classes>
+      </test>
+      
+      <test name = "study" >   
+       
+      <classes>
+      
+      <class name = "TestNg.Day4" >
+      <methods>
+      <exclude name ="offlineClass"/>
+      </methods>
+      
+      </class>
+      </classes>
+      
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
